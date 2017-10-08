@@ -1,0 +1,22 @@
+---
+title: User-Configuration-File-Backup With GitHub
+---
+
+**Trying new distributions everytime give us fresh OS which we need to configure for start using that we used to be. Backing up all the configuration files is a tidious task unless we are using GitHub. GitHub is a version control repository which can be used here to fully automate the task.**
+
+User configuration files can do significant role in the Linux distributions when it comes to the portability of operating systems. Restoring those files to newly installed OS give us the perfect one which we are comfortable to play with. We need GitHub here in this part to do the online synchronising task.   
+Installing and configuring GitHub on Linux distribution is not a rocket science kind of task followed by signing up a GitHub account. GitHub can be readly found in all distribution repositories. In Ubuntu, the package name will be `git` and the installation command obviously will be `sudo apt-get install git`.  
+Now we are going to use home directory as GitHub remote repository. It needs first time configuration as follows:
++ Create new repository on GitHub. To avoid errors, do not initialize the new repository with README, license, or `gitignore` files after your project has been pushed to GitHub.
++ Open Terminal
++ Initialize the local repository as a Git repository.
+`git init`
++ Add the files in your new local repository.
+`git add .`
++ Commit the files that you have staged in your local repository.
+`git commit -m "First commit"`
++ Copy the remote repository URL.
++ In the command prompt, add the URL for the remote repository where your local repository will be pushed.
+`git remote add origin URL`
++ Push the changes in your local repository to GitHub.
+`git push origin master`
