@@ -1,0 +1,13 @@
+---
+title: TMUX tricks
+---
+
+**If your are a terminal fan or regular CLI (command line interface) tool user, I would recommand you to give TMUX a try. Tmux can give more out of the common terminal -- It is more than enough for a normal user though -- which comes default with all distributions. For example, Gnome-terminal in Ubuntu, Xfce4-terminal in Xfce4 and Xterm in almost all distributions. The best thing I love to use the most is session restoring -- we can completely close the terminal and restore the same whenever we are needed back.**
+
+Tmux nothing but a terminal multiplexer, a single terminal will act like many when tmux comes into play. Dividing terminal into many is useful when we are having copy-paste kind of task. Here you can see that how the terminal would divid into as many as we want.
+
+![tmux_1](file.gif)
+
+I use tmux for scripting. You may have seen my previous [post](kevydotvinu.github.io/_post/) regarding the same.  
+
+Tmux-session-restoring do have enough to stick around using tmux on a regular basis.
